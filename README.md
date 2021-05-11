@@ -58,7 +58,7 @@ Chacune des vues a un comportement propre :
 7. Faites en sorte que les différentes vues reçoivent un événement de type *PercentageValueChangedEvent* si l'état interne du modèle est modifié.
 
 > 1) Commencez par repérer quelle est l'interface que les vues doivent implementer pour être capable de recevoir des évenements de la part du modèle.
-> 2) Implémentez la/les potentielle(s) méthode(s) de cette interface de manière cohérente, le but étant de mettre à jour la vue lorsqu'elle reçoit un événement de la part du modèle.
+> 2) Implémentez la/les potentielle(s) méthode(s) de cette interface de manière cohérente, le but étant de mettre à jour les vues lorsqu'elles reçoivent un événement de la part du modèle.
 > 3) Implémentez les méthodes suivantes dans la classe *Controller* pour qu'elles permettent d'ajouter ou de retirer des éléments de la liste des PercentageValueListener du modèle :
 > `public void addPercentageValueListener(PercentageValueListener percentageValueListener)`
 > `public void removePercentageValueListener(PercentageValueListener percentageValueListener)`
