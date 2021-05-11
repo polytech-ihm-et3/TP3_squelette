@@ -17,10 +17,10 @@ Ce programme devra contenir :
 <br><div align="center"><img src="images/mvc_app.jpg" width="300"></img></div><br>
 
 Chacune des vues a un comportement propre :
- - *ConsolView* : cette vue doit afficher un message dans la console à chaque fois que le modèle change;
- - *LabelView* : cette vue doit afficher, dans un [*Label*](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Label.html), l'état actuel du modèle;
- - *PieChartView* : cette vue doit afficher un graphique correspondant à l'état actuel du modèle. Elle doit aussi permettre à l'utilisateur de manuellement transformer ce graphique, si l'utilisateur réalise un clic ou un drag sur celui-ci;
- - *SliderView* : cette vue doit actualiser la position du curseur d'un slider en accord avec l'état actuel du modèle. Elle doit aussi permettre à l'utilisateur de manipuler directement ce curseur pour mettre à jour le modèle.
+ - *ConsolView* affiche un message dans la console à chaque fois que le modèle change;
+ - *LabelView* affiche, dans un [*Label*](https://docs.oracle.com/javase/8/javafx/api/javafx/scene/control/Label.html), l'état actuel du modèle;
+ - *PieChartView* affiche un graphique correspondant à l'état actuel du modèle. Cette vue permet également à l'utilisateur de manuellement transformer ce graphique, s'il réalise un clic ou un drag sur celui-ci;
+ - *SliderView* actualise la position du curseur d'un slider en accord avec l'état actuel du modèle. Cette vue permet également à l'utilisateur de manipuler directement ce curseur pour mettre à jour le modèle.
 
 1. Importez ce projet dans votre IDE.
 
