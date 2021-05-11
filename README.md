@@ -43,7 +43,7 @@ Chacune des vues a un comportement propre :
 
 2. Réalisez un diagramme UML de cette application, afin de bien comprendre les relations entre les différentes entités qui la compose. Faites vérifier le diagramme par votre encadrant avant de continuer.
 
-3. Ajouter les quatre vues *ConsolView*, *LabelView*, *PieChartView*, *SliderView* à la classe principale (*App.java*). Votre interface doit être la plus proche possible de la figure ci-dessus.
+3. Ajoutez les quatre vues *ConsolView*, *LabelView*, *PieChartView*, *SliderView* à la classe principale (*App.java*). Votre interface doit être la plus proche possible de la figure ci-dessus.
 
 4. Complétez la classe *Controller* pour qu'elle fasse le lien entre le modèle et les vues.
 
