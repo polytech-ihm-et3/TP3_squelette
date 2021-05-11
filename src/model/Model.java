@@ -63,7 +63,10 @@ public class Model implements ModelInterface
 	{
 		for(PercentageValueListener percentageValueListener : percentageValueListeners)
 		{
-			//TODO prévenir les listeners que le modèle a changé
+			/** TODO 7.Faites en sorte que les différentes vues reçoivent
+			 * un événement de type PercentageValueChangedEvent si l'état
+			 * interne du modèle est modifié.
+			 */
 		}
 	}
 }

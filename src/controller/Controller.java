@@ -15,31 +15,41 @@ public class Controller implements ControllerInterface
 	@Override
 	public double getValue()
 	{
-		//TODO récupérer la valeur du modèle
+		/**TODO 4. Complétez la classe Controller pour qu'elle fasse
+		 * le lien entre le modèle et les vues.
+		 */
 		return 0.0d;
 	}
 	
 	@Override
 	public void setValue(double value)
 	{
-		//TODO modifier la valeur du modèle
+		/**TODO 4. Complétez la classe Controller pour qu'elle fasse
+		 * le lien entre le modèle et les vues.
+		 */
 	}
 
 	@Override
 	public void addPercentageValueListener(PercentageValueListener percentageValueListener)
 	{
-		//TODO ajouter l'élément à la liste du modèle
+		/**TODO 4. Complétez la classe Controller pour qu'elle fasse
+		 * le lien entre le modèle et les vues.
+		 */
 	}
 	
 	@Override
 	public void removePercentageValueListener(PercentageValueListener percentageValueListener)
 	{
-		//TODO retirer l'élément de la liste du modèle
+		/**TODO 4. Complétez la classe Controller pour qu'elle fasse
+		 * le lien entre le modèle et les vues.
+		 */
 	}
 	
 	@Override
 	public void notifyValueChanged(double value)
 	{
-		//TODO prévenir le modèle que la valeur a changé
+		/**TODO 4. Complétez la classe Controller pour qu'elle fasse
+		 * le lien entre le modèle et les vues.
+		 */
 	}
 }

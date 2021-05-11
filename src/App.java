@@ -30,12 +30,17 @@ public class App extends VBox
 		controller = new Controller(model);
 		
 		//On crée les vues
-		//labelView = new LabelView();
-		//TODO Créer les vues
+		/** TODO 3. Ajoutez les quatre vues ConsolView, LabelView,
+		 * PieChartView, SliderView à la classe principale (App.java).
+		 */
+		//e.g. labelView = new LabelView();
 		
-		//On connecte les vues au controlleur
-		//controller.addPercentageValueListener(labelView);
-		//TODO Lier les vues
+		//On connecte les vues au modèle
+		/** TODO 7.Faites en sorte que les différentes vues reçoivent
+		 * un événement de type PercentageValueChangedEvent si l'état
+		 * interne du modèle est modifié.
+		 */
+		//e.g. controller.addPercentageValueListener(labelView);
 		
 		//On initialise l'interface utilisateur
 		initialiserUI();

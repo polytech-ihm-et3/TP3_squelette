@@ -7,7 +7,14 @@ import javafx.scene.paint.Color;
 import javafx.scene.shape.ArcType;
 import controller.Controller;
 
-public class PieChartView extends Canvas //TODO implements
+public class PieChartView extends Canvas
+/** TODO 6. Faites en sorte que les différentes vues aient
+ * chacune une méthode permettant de la mettre à jour.
+ */
+/** TODO 7.Faites en sorte que les différentes vues reçoivent
+ * un événement de type PercentageValueChangedEvent si l'état
+ * interne du modèle est modifié.
+ */
 {
 	@SuppressWarnings("unused")
 	private final Controller controller;
@@ -28,7 +35,10 @@ public class PieChartView extends Canvas //TODO implements
 			if (inPieChart(event))
 			{
 				clickedInPieChart = true;
-				controller.notifyValueChanged(pointToPercentage(event));
+				/** TODO 5. Implémentez PieChartView pour qu'elle mette
+				 * à jour le modèle si l'utilisateur la manipule
+				 * (attention, tout doit passer par le controlleur).
+				 */
 			}
 		});
 		
@@ -36,7 +46,10 @@ public class PieChartView extends Canvas //TODO implements
 		{
 			if(clickedInPieChart)
 			{
-				controller.notifyValueChanged(pointToPercentage(event));
+				/** TODO 5. Implémentez PieChartView pour qu'elle mette
+				 * à jour le modèle si l'utilisateur la manipule
+				 * (attention, tout doit passer par le controlleur).
+				 */
 			}
 		});
 		

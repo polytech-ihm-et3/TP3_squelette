@@ -5,7 +5,14 @@ import javafx.beans.value.ObservableValue;
 import javafx.scene.control.Slider;
 import controller.Controller;
 
-public class SliderView extends Slider //TODO implements
+public class SliderView extends Slider
+/** TODO 6. Faites en sorte que les différentes vues aient
+ * chacune une méthode permettant de la mettre à jour.
+ */
+/** TODO 7.Faites en sorte que les différentes vues reçoivent
+ * un événement de type PercentageValueChangedEvent si l'état
+ * interne du modèle est modifié.
+ */
 {
 	@SuppressWarnings("unused")
 	private final Controller controller;
@@ -29,10 +36,11 @@ public class SliderView extends Slider //TODO implements
 			@Override
 			public void changed(ObservableValue<? extends Number> observable, Number oldValue, Number newValue)
 			{
-				controller.notifyValueChanged(getValue() / 100F);
+				/** TODO 5. Implémentez SliderView pour qu'elle mette
+				 *  à jour le modèle si l'utilisateur la manipule
+				 *  (attention, tout doit passer par le controlleur).
+				 */
 			}
 		});
 	}
-	
-	//TODO SliderView should blabla
 }
