@@ -63,3 +63,5 @@ Chacune des vues a un comportement propre :
 > `public void addPercentageValueListener(PercentageValueListener percentageValueListener)`
 > `public void removePercentageValueListener(PercentageValueListener percentageValueListener)`
 > 4) Ajoutez les vues à la liste des éléments recevant des événements de la part du modèle (attention, tout doit passer par le controlleur)
+> 5) Complétez la méthode suivante dans le modèle, pour qu'elle prévienne les PercentageValueListeners, si l'état interne est modifié
+> `public void fireValueChanged()`
