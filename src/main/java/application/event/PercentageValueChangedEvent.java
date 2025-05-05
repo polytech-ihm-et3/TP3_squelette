@@ -3,7 +3,6 @@ package application.event;
 import javafx.event.Event;
 import javafx.event.EventType;
 
-@SuppressWarnings("serial")
 public class PercentageValueChangedEvent extends Event {
 	public static String TYPE = "VALUE_CHANGED";
 	private double newPercentageValue;

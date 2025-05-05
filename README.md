@@ -21,24 +21,7 @@ Chacune des vues a un comportement propre :
  - *PieChartView* affiche un graphique correspondant à l'état actuel du modèle. Cette vue permet également à l'utilisateur de manuellement transformer ce graphique, s'il réalise un clic ou un drag sur celui-ci.
  - *SliderView* actualise la position du curseur d'un slider en accord avec l'état actuel du modèle. Cette vue permet également à l'utilisateur de manipuler directement ce curseur pour mettre à jour le modèle.
 
-1. Importez ce projet dans votre IDE.
-
-> Pour importer ce projet dans Eclipse, suivez les étapes suivantes :
->   1) Allez dans *File* > *Import...*;
->   2) Sélectionnez *Git* > *Projects from Git*;
->   3) Sélectionnez *Clone URI*;
->   4) Dans *URI:*, entrez "https://github.com/polytech-ihm-et3/TP1_squelette.git" (les autres champs devraient se remplir automatiquement);
->   5) Cliquez sur "*Next >*" pour toutes les étapes suivantes, puis sur "*Finish*".
->   
-> Pour visualiser les tâches à réaliser dans ce projet avec Eclipse, allez dans "*Window*" > "*Show View*" > "*Tasks*".
-
-> Pour importer ce projet dans IntelliJ, suivez les étapes suivantes :
->   1) Allez dans *File* > *New* > *Project from Version Control...*;
->   2) Sur la droite, sélectionnez *GitHub*;
->   3) Dans la barre de recherche, en haut, inscrivez "https://github.com/polytech-ihm-et3/TP1_squelette.git";
->   4) Cliquez sur *Clone*.
->   
-> Pour visualiser les tâches à réaliser dans ce projet avec IntelliJ, allez dans "*View*" > "*Tool Windows*" > "*TODO*".
+1. Clonez ce projet et configurez votre IDE de la même manière que le TP1, en suivant les instructions sur https://github.com/polytech-ihm-et3/HowToUseJavaFxWithIDE. **Il est normal que le projet renvoie une erreur pour l'instant :** *Cannot invoke "application.view.LabelView.setDisable(boolean)" because "this.labelView" is null.*
 
 2. Réalisez un diagramme UML de cette application, afin de bien comprendre les relations entre les différentes entités qui la compose. Faites vérifier le diagramme par votre encadrant avant de continuer.
 
